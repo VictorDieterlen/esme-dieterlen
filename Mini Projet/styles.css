@@ -1,0 +1,79 @@
+body{
+    background-color:black;
+    color:white;
+}
+header,main, nav, footer {
+    text-align:center;
+}
+#content{
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: 'Pacifico' , cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+nav a { /*links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color:white;           /* by default, links are blue*/
+}
+nav a:hover, #current { /*pseudo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;   /* transition effect*/
+}
+#me{
+    float:left;
+    
+}
+#welcomeText{
+    float:none;
+    text-align: left;
+}
+footer{
+    clear:left;
+    font-size: 4;
+    color: gray;
+}
+#imgfooter{
+    width:10%;
+    height:5%;
+}
+table{
+    margin: 0px auto;
+}
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+    color: black;
+}
+td strong{
+    color: orange;
+}
+#table-header{
+    background-color: white;
+}
+.table-row{
+    background-color: white;
+}
+ul{
+    text-align: left;
+    padding-left: 200px;
+}
+.hobby{
+    color:#ffff00;
+}
+.job{
+    color:#ffff00;
+}
+.compagny{
+    color:#ffbf00;
+}
+.date{
+    color:#ff8000;
+}

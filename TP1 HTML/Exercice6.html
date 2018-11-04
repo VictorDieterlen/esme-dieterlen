@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercie 6</title>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Vos coordonnées</legend>
+    Nom*:
+    <input type="text" name="nom" value="Entrez votre nom">
+    <br>
+    Telephone*:
+    <input type="text" name="telephone" value="Pattern: 0x-xx-xx-xx">
+    <br>
+    Email address*:
+    <input type="text" name="email" value="Enter your emai adrdress">
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Etudes</legend>
+    A quelle université ou école appartenez vous ?*
+    <select name="ecole">
+        <option value="ESME Sudria">ESME Sudria</option>
+        <option value="Telecom Sud Paris">Telecom Sud Paris</option>
+        <option value="ENSIEE">ENSIEE</option>
+        <option value="Lip6">Lip6</option>
+    </select>
+    <br>
+    <input type="radio" name="choix" value="oui" checked> oui, je souhaite que mon adresse postale soit ...<br>
+    <input type="radio" name="choix" value="non"> Non<br>
+    <br><br>
+    <input type="Submit" value="Valider">
+  </fieldset>
+  Password*:<input type="text" name="mp" value="Min 6 caractères coommençant par une majuscule"> <input type="Submit" value="Valider"><br>
+  La saisie des champs marqués d'une * est objigatoire.
+</form>
+</body>
+</html>
