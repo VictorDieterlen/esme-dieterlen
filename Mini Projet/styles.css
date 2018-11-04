@@ -1,79 +1,93 @@
-body{
+body{ /* fond noir texte blanc */
     background-color:black;
     color:white;
 }
-header,main, nav, footer {
+
+header,main, nav, footer { /* tout centré */
     text-align:center;
 }
-#content{
+
+#content{ /* style du texte */
     margin: 0 auto;
     text-align: center;
 }
-h1{
+
+h1{ /* style des titres 1 */
     color: white;
-    font-family: 'Pacifico' , cursive;
+    font-family: 'Amiri', serif;
     font-size: 4em;
     margin-bottom: 0px;
 }
-nav a { /*links within "nav" container */
+
+nav a { /*lien hors de la div "nav" */
     padding:15px;
     padding-bottom:4px;
     font-size: 1.8em;
-    text-decoration: none; /* removes underline */
-    color:white;           /* by default, links are blue*/
+    text-decoration: none; /* enléve le soulignage */
+    color:white;           /* les liens sont bleu par déffaut*/
 }
-nav a:hover, #current { /*pseudo class*/
+
+nav a:hover, #current { /*pseudo classe*/
     border-bottom: 2px orange solid;
     font-size: 2em;
-    transition: .9s;   /* transition effect*/
+    transition: .9s;   /* effet de transition*/
 }
-#me{
+
+#moi{ /* style de la photo */
     float:left;
     
 }
-#welcomeText{
+
+#bienvenue{ /* style du texte de bienvenue */
     float:none;
     text-align: left;
 }
-footer{
+
+footer{ /* style du bas de page */
     clear:left;
     font-size: 4;
     color: gray;
 }
-#imgfooter{
-    width:10%;
-    height:5%;
-}
-table{
+
+table{ /* style du tableau */
     margin: 0px auto;
 }
-td{
+
+td{ /* style des textes des lignes du tableau */
     padding-right: 10px;
     font-size: 1.3em;
     color: black;
 }
-td strong{
+
+td strong{ /* style pour les textes des lignes principales du tableau */
     color: orange;
 }
-#table-header{
+
+#table-header{ /* style pour les lignes principales du tableau */
     background-color: white;
 }
-.table-row{
+
+.table-row{ /* style pour les lignes du tableau */
     background-color: white;
 }
-ul{
+
+ul{ /* allignement des listes */
     text-align: left;
     padding-left: 200px;
 }
-.hobby{
+
+.hobby{ /* couleur du span "hobby" */
     color:#ffff00;
 }
-.job{
+
+.job{ /* couleur du span "job" */
     color:#ffff00;
 }
-.compagny{
+
+.compagny{ /* couleur du span "compagny" */
     color:#ffbf00;
 }
-.date{
+
+.date{ /* couleur du span "date" */
     color:#ff8000;
 }
