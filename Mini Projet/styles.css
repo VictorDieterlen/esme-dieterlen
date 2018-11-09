@@ -7,9 +7,16 @@ header,main, nav, footer { /* tout centré */
     text-align:center;
 }
 
-#content{ /* style du texte */
-    margin: 0 auto;
+#texte{ /* allignement du texte */
     text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+#soustexte{ /* allignement des listes du fichier about du texte */
+    text-align: center;
+    margin: auto;
+    width: 80%;
 }
 
 h1{ /* style des titres 1 */
@@ -27,7 +34,7 @@ nav a { /*lien hors de la div "nav" */
     color:white;           /* les liens sont bleu par déffaut*/
 }
 
-nav a:hover, #current { /*pseudo classe*/
+nav a:hover, #location { /*pseudo classe*/
     border-bottom: 2px orange solid;
     font-size: 2em;
     transition: .9s;   /* effet de transition*/
@@ -35,12 +42,31 @@ nav a:hover, #current { /*pseudo classe*/
 
 #moi{ /* style de la photo */
     float:left;
-    
+    margin: auto;
+    width: 60%;
+}
+
+#imagemoi{ /* style de la photo */
+    border-radius: 10%;
+}
+
+
+#logo{ /* style des logos */
+    float:right;
 }
 
 #bienvenue{ /* style du texte de bienvenue */
     float:none;
-    text-align: left;
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#eeudf{ /* style de la photo */
+    float:left;
+    margin: auto;
+    width: 60%;
 }
 
 footer{ /* style du bas de page */
